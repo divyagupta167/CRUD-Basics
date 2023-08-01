@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+
+.container{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 50px;
+    max-height: 100vh;
+
+}
+#posts{
+    width: 400px;
+}
+
+.custom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+
+
+#posts div{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 100vh;
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+i{
+    cursor: pointer;
+}
+#msg{
+    color: red;
+}
